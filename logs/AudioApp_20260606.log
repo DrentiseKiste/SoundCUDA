@@ -1,0 +1,3 @@
+2026-06-06 13:13:01 - AudioApp - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\AudioApp_20260606.log
+2026-06-06 13:13:16 - AudioApp - INFO - [GUI] 开始人声分析
+2026-06-06 13:13:16 - AudioApp - DEBUG - [GUI详情] 文件: clip-1780379276104.wav, 模式: 完整分析, 并行: 是

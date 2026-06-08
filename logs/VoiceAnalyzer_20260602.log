@@ -1,0 +1,292 @@
+2026-06-02 11:48:14 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: C:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 11:48:14 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:10:52 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:10:52 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:12:47 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tex.wav
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO -   音频长度: 79.34秒, 采样率: 48000Hz
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO -   分割完成，总段数: 11
+2026-06-02 12:12:47 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:13:39 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 51.1530秒
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   恐惧: 36.4%
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   悲伤: 27.3%
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   惊讶: 18.2%
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   快乐: 9.1%
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   厌恶: 9.1%
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   基频特征: 平均=183.6Hz, 范围=84.9Hz
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   频谱特征: 质心=1680.4Hz
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0258
+2026-06-02 12:13:39 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 51.4792秒
+2026-06-02 12:13:39 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:13:39 - VoiceAnalyzer - ERROR - 发生错误: 分析音频文件
+2026-06-02 12:13:39 - VoiceAnalyzer - ERROR - 错误类型: AttributeError
+2026-06-02 12:13:39 - VoiceAnalyzer - ERROR - 错误详情: 'EmotionVisualizer' object has no attribute 'plot_acoustic_features'
+Traceback (most recent call last):
+  File "c:\Users\27946\Desktop\Sound\VoiceAnalysis\voice_analyzer.py", line 166, in analyze_audio
+    report_paths = self._generate_reports(result, audio_file)
+  File "c:\Users\27946\Desktop\Sound\VoiceAnalysis\voice_analyzer.py", line 302, in _generate_reports
+    acoustic_path = self.visualizer.plot_acoustic_features(
+AttributeError: 'EmotionVisualizer' object has no attribute 'plot_acoustic_features'
+2026-06-02 12:18:16 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: C:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:18:16 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:26:47 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:26:47 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:27:07 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tex.wav
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO -   音频长度: 79.34秒, 采样率: 48000Hz
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO -   分割完成，总段数: 11
+2026-06-02 12:27:07 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:27:33 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 25.6612秒
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   恐惧: 36.4%
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   悲伤: 27.3%
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   惊讶: 18.2%
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   快乐: 9.1%
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   厌恶: 9.1%
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   基频特征: 平均=183.6Hz, 范围=84.9Hz
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   频谱特征: 质心=1680.4Hz
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0258
+2026-06-02 12:27:33 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 25.8874秒
+2026-06-02 12:27:33 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:27:33 - VoiceAnalyzer - ERROR - 发生错误: 分析音频文件
+2026-06-02 12:27:33 - VoiceAnalyzer - ERROR - 错误类型: AttributeError
+2026-06-02 12:27:33 - VoiceAnalyzer - ERROR - 错误详情: 'EmotionVisualizer' object has no attribute 'plot_acoustic_features'
+Traceback (most recent call last):
+  File "c:\Users\27946\Desktop\Sound\VoiceAnalysis\voice_analyzer.py", line 166, in analyze_audio
+    report_paths = self._generate_reports(result, audio_file)
+  File "c:\Users\27946\Desktop\Sound\VoiceAnalysis\voice_analyzer.py", line 302, in _generate_reports
+    acoustic_path = self.visualizer.plot_acoustic_features(
+AttributeError: 'EmotionVisualizer' object has no attribute 'plot_acoustic_features'
+2026-06-02 12:32:18 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:32:18 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:32:31 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tex.wav
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO -   音频长度: 79.34秒, 采样率: 48000Hz
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO -   分割完成，总段数: 11
+2026-06-02 12:32:31 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:32:47 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 15.9072秒
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   恐惧: 36.4%
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   悲伤: 27.3%
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   惊讶: 18.2%
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   快乐: 9.1%
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   厌恶: 9.1%
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   基频特征: 平均=183.6Hz, 范围=84.9Hz
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   频谱特征: 质心=1680.4Hz
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0258
+2026-06-02 12:32:47 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 16.1396秒
+2026-06-02 12:32:47 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO -   报告生成完成: 4个文件
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO - 人声分析任务完成
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO - 分析时长: 79.34秒
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO - 分析段数: 11
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO - 总耗时: 16.14秒
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO - 主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:32:50 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:34:23 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:34:23 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:34:32 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tex.wav
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO -   音频长度: 79.34秒, 采样率: 48000Hz
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO -   分割完成，总段数: 11
+2026-06-02 12:34:32 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:34:49 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 16.2810秒
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   恐惧: 36.4%
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   悲伤: 27.3%
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   惊讶: 18.2%
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   快乐: 9.1%
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   厌恶: 9.1%
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   基频特征: 平均=183.6Hz, 范围=84.9Hz
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   频谱特征: 质心=1680.4Hz
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0258
+2026-06-02 12:34:49 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 16.4697秒
+2026-06-02 12:34:49 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO -   报告生成完成: 4个文件
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO - 人声分析任务完成
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO - 分析时长: 79.34秒
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO - 分析段数: 11
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO - 总耗时: 16.47秒
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO - 主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:34:52 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:41:36 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:41:36 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:41:48 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tex.wav
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO -   音频长度: 79.34秒, 采样率: 48000Hz
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO -   分割完成，总段数: 11
+2026-06-02 12:41:48 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:42:04 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 16.4672秒
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   恐惧: 36.4%
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   悲伤: 27.3%
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   惊讶: 18.2%
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   快乐: 9.1%
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   厌恶: 9.1%
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   基频特征: 平均=183.6Hz, 范围=84.9Hz
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   频谱特征: 质心=1680.4Hz
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0258
+2026-06-02 12:42:04 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 16.6669秒
+2026-06-02 12:42:04 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO -   报告生成完成: 4个文件
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO - 人声分析任务完成
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO - 分析时长: 79.34秒
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO - 分析段数: 11
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO - 总耗时: 16.67秒
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO - 主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:42:07 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:43:27 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:43:27 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:43:39 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tex.wav
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO -   音频长度: 79.34秒, 采样率: 48000Hz
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO -   分割完成，总段数: 11
+2026-06-02 12:43:39 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:43:55 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 16.0984秒
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   恐惧: 36.4%
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   悲伤: 27.3%
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   惊讶: 18.2%
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   快乐: 9.1%
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   厌恶: 9.1%
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   基频特征: 平均=183.6Hz, 范围=84.9Hz
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   频谱特征: 质心=1680.4Hz
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0258
+2026-06-02 12:43:55 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 16.2927秒
+2026-06-02 12:43:55 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO -   报告生成完成: 4个文件
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO - 人声分析任务完成
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO - 分析时长: 79.34秒
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO - 分析段数: 11
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO - 总耗时: 16.29秒
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO - 主导情绪: fear, 置信度: 21.33%
+2026-06-02 12:43:58 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:50:56 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:50:56 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:51:06 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/tey.wav
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO -   音频长度: 307.39秒, 采样率: 16000Hz
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO -   分割完成，总段数: 162
+2026-06-02 12:51:06 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
+2026-06-02 12:51:53 - VoiceAnalyzer - DEBUG - [特征提取] 耗时: 47.0945秒
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO - [步骤4] 分析情绪
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   主导情绪: fear, 置信度: 23.53%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO - [步骤5] 分析情绪时间线
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO - 情绪分布:
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   惊讶: 27.8%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   恐惧: 22.8%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   悲伤: 22.8%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   愤怒: 17.3%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   厌恶: 7.4%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   快乐: 1.9%
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO - [步骤6] 聚合特征
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO - 特征提取摘要:
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   基频特征: 平均=227.4Hz, 范围=82.5Hz
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   频谱特征: 质心=1152.2Hz
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO -   能量特征: RMS=0.0816
+2026-06-02 12:51:53 - VoiceAnalyzer - DEBUG - [完整分析] 耗时: 47.3686秒
+2026-06-02 12:51:53 - VoiceAnalyzer - INFO - [步骤7] 生成分析报告
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO -   报告生成完成: 4个文件
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO - 人声分析任务完成
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO - 分析时长: 307.39秒
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO - 分析段数: 162
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO - 总耗时: 47.37秒
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO - 主导情绪: fear, 置信度: 23.53%
+2026-06-02 12:51:58 - VoiceAnalyzer - INFO - ============================================================
+2026-06-02 12:55:33 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:55:33 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 12:56:30 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: C:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 12:56:30 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 13:09:44 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 13:09:44 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 13:23:35 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 13:23:35 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 13:25:03 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 13:25:03 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 13:48:48 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 13:48:48 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 13:56:54 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 13:56:54 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 14:00:00 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 14:00:00 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 14:00:42 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 14:00:42 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 14:02:05 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 14:02:05 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 14:03:39 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 14:03:39 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-02 14:09:05 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260602.log
+2026-06-02 14:09:05 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16

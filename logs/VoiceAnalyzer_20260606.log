@@ -1,0 +1,13 @@
+2026-06-06 13:13:03 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260606.log
+2026-06-06 13:13:03 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-06 13:13:16 - VoiceAnalyzer - DEBUG - 日志系统初始化完成，日志文件: c:\Users\27946\Desktop\Sound\logs\VoiceAnalyzer_20260606.log
+2026-06-06 13:13:16 - VoiceAnalyzer - INFO - 并行处理已启用，工作进程数: 16
+2026-06-06 13:13:16 - VoiceAnalyzer - INFO - ============================================================
+2026-06-06 13:13:16 - VoiceAnalyzer - INFO - 人声分析任务开始
+2026-06-06 13:13:16 - VoiceAnalyzer - INFO - ============================================================
+2026-06-06 13:13:16 - VoiceAnalyzer - INFO - 音频文件: C:/Users/27946/Desktop/Sound/testvoices/clip-1780379276104.wav
+2026-06-06 13:13:16 - VoiceAnalyzer - INFO - [步骤1] 加载音频文件
+2026-06-06 13:13:17 - VoiceAnalyzer - INFO -   音频长度: 61.47秒, 采样率: 48000Hz
+2026-06-06 13:13:17 - VoiceAnalyzer - INFO - [步骤2] 分割音频段
+2026-06-06 13:13:17 - VoiceAnalyzer - INFO -   分割完成，总段数: 19
+2026-06-06 13:13:17 - VoiceAnalyzer - INFO - [步骤3] 提取声学特征
